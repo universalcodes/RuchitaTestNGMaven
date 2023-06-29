@@ -25,6 +25,8 @@ public class ScrollValidation {
 		Thread.sleep(5000);
 		System.out.println(browser_driver.getTitle());
 				System.out.println(browser_driver.getTitle());
+				
+				
 
 		System.out.println(browser_driver.getCurrentUrl());
 		Thread.sleep(10000);
@@ -40,6 +42,10 @@ public class ScrollValidation {
 		WebElement scrollbyElement= browser_driver.findElement(By.xpath("//*[text()='Frequently repurchased in Beauty & Personal Care']"));
 				
 		scroll.executeScript("arguments[0].scrollIntoView(false)", scrollbyElement);
+		
+						System.out.println(browser_driver.getTitle());
+				System.out.println(browser_driver.getTitle());
+s
 		
 
 }
