@@ -24,6 +24,8 @@ public class ScrollValidation {
 		browser_driver.get(appurl);
 		Thread.sleep(5000);
 		System.out.println(browser_driver.getTitle());
+				System.out.println(browser_driver.getTitle());
+
 		System.out.println(browser_driver.getCurrentUrl());
 		Thread.sleep(10000);
 		
