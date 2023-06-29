@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestCaseSet1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllAutomationSuite(failed)">
+    <classes>
+      <class name="testng.suite.automation2.Scroll1">
+        <methods>
+          <include name="scroll_validation"/>
+        </methods>
+      </class> <!-- testng.suite.automation2.Scroll1 -->
+      <class name="newtest.packagee.NewTest8">
+        <methods>
+          <include name="test8"/>
+        </methods>
+      </class> <!-- newtest.packagee.NewTest8 -->
+      <class name="newtest.packagee.NewTest7">
+        <methods>
+          <include name="test7"/>
+        </methods>
+      </class> <!-- newtest.packagee.NewTest7 -->
+      <class name="newtest.packagee.NewTest2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- newtest.packagee.NewTest2 -->
+    </classes>
+  </test> <!-- AllAutomationSuite(failed) -->
+</suite> <!-- Failed suite [TestCaseSet1] -->

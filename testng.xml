@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestCaseSet1">
+  <test thread-count="5" name="AllAutomationSuite" >
+    <classes>
+      <class name="newtest.packagee.NewTest11"/>
+      <class name="newtest.packagee.NewTest10"/>
+      <class name="newtest.packagee.NewTest13"/>
+      <class name="newtest.packagee.NewTest9"/>
+      <class name="newtest.packagee.NewTest12"/>
+      <class name="newtest.packagee.NewTest15"/>
+      <class name="newtest.packagee.NewTest7"/>
+      <class name="newtest.packagee.NewTest14"/>
+      <class name="newtest.packagee.NewTest8"/>
+      <class name="newtest.packagee.NewTest5"/>
+      <class name="newtest.packagee.NewTest6"/>
+      <class name="newtest.packagee.NewTest3"/>
+      <class name="newtest.packagee.NewTest4"/>
+      <class name="newtest.packagee.NewTest2"/>
+      <class name="newtest.packagee.NewTest"/>
+      <class name="testng.suite.automation2.Scroll1"></class>
+    </classes>
+  </test> <!-- AllAutomationSuite -->
+</suite> <!-- TestCaseSet1 -->
